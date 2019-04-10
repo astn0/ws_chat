@@ -1,0 +1,28 @@
+<html>
+ <head>
+     <meta charset='utf-8'>
+     <title> websocket тесты</title>
+     <link href="https://fonts.googleapis.com/css?family=Dokdo|Indie+Flower|Montserrat" rel="stylesheet">
+     <link href='admin_style.css' rel='stylesheet'>
+    
+ </head>
+ <body>
+     <h2>Тестируем websockets</h2>
+     <textarea id='input' placeholder='Введите сообщение'></textarea>
+     <textarea id = 'output' placeholder='Сообщение от пользователей'></textarea></textarea>
+     <div id='users' placeholder='Выберите пользователя'>
+        <span id='users_close'>Скрыть</span>
+        <ul></ul>
+       <span id='users_open'>Раскрыть</span>
+       
+
+     </div>
+     <button id='send_message'>Послать сообщаку</button>
+     <button id='connect'>Подключитяся</button>
+     <button id='disconnect'>Отключитяся</button>
+     <div id='status'>disconnect</div>
+     <input id = 'login' type='text' placeholder='Ваше имя'/>
+     <input id = 'password' type='password' placeholder='Ваш пароль'/>
+ </body>
+     <script src='admin_script.js'></script>
+</html>
